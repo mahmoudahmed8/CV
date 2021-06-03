@@ -1,0 +1,197 @@
+body {
+    font-size: 20px;
+    background-image: url(pexels-photo-1590549.jpeg);
+    background-position:;
+    background-repeat: repeat;
+    padding: 15px;
+}
+
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, .skills-list {
+    font-family: 'Montez', cursive;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 130%;
+    text-align: left;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 130%;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+p {
+    line-height: 150%;
+}
+
+img {
+    max-width: 80%;
+}
+
+nav {
+    background-color: #cc6ff7 /*#9D2CC9*/; /*#DBEBF4;*/
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    position: -webkit-Mahmoud; 
+    position: Mahmoud;
+    top: 0;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px; /*0 refers to top and bottom, and 15px to left and right*/
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+   
+  overflow: hidden;
+  
+  position: -webkit-Mahmoud; 
+  position: Mahmoud;
+  
+
+}
+
+nav ul {
+    margin: 0 auto;
+    text-align: left;
+    padding: 30px;
+    background-color:burlywood;
+    color: blanchedalmond;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+ul li .work {
+    list-style: circle;
+}
+
+li.empty {
+    width: 90px;
+    border-top: 1px solid black;
+    top: -5px;
+    position: relative;
+}
+
+header {
+    top: 70px;
+    position: relative;
+    margin-bottom: 220px;
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -110px;
+}
+
+
+
+.button {
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    margin-top: 40px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.button:hover {
+    background: black;
+    color: white;
+
+}
+
+figcaption {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.intro-img {
+    box-shadow: 1px 2px 30px rgba(0,0,0,0.2);
+    margin-top: 30px;
+    /*margin-bottom: 10px;*/
+}
+
+.skills-list {
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 28px;
+    padding-top: 10px;
+    font-size: 30px;
+    line-height: 150%;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    background-color: chartreuse;
+}
+
+.project {
+    margin: 30px 0;
+    padding: 50px;
+}
+
+.project .button {
+    margin-top: 10px;
+}
+
+.blue {
+    background-color: dodgerblue /*#9D2CC9*/ /*#DBEBF4*/;
+}
+.st{
+    background-color: dodgerblue /*#9D2CC9*/ /*#DBEBF4*/;
+    margin: 20px 0;
+    padding: 50px;
+
+}
+.m{
+    background-color: darksalmon;
+    margin: 30px 0;
+    padding: 10px;
+}
+footer {
+    text-align: left;
+    margin: 10px;
+}
+
+footer h2 {
+    font-size: 35px;
+    margin-bottom: 100px;
+}
+
+.right-alignment {
+    text-align: right;
+}
+.links{
+color: black;
+font-size: 20px;
+text-decoration: none;
+}
+.links:hover{
+    text-transform:uppercase;
+    text-decoration: underline;
+}
